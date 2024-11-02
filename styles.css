@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "sfont";
+  src: url("RuthlessSketch.ttf") format("truetype");
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+}
+
+.text1 {
+  color: #eff773;
+
+  font-family: "sfont";
+}
+.text1 :hover {
+  color: #9b5151;
+}
+
+.text2 {
+  color: #b5d33c;
+}
+
+.text3 {
+  color: #ea8323;
+  font: bold;
+  size: 120%;
+}
+
+.tickets {
+  color: #9b5151;
+  background-color: #eff773;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline 5px;
+  text-shadow: #9b5151 4px 4px 2px;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: #9b5151 4px 4px 2px;
+}
+
+.movieAlign {
+  text-align: center;
+  margin: auto;
+}
+
+.menu {
+  border-radius: 5%;
+}
+
+.hhh {
+  height: 50vh;
+}
